@@ -23,13 +23,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
     width: auto;
+}
+
+.icones {
+    height: 20px;
+    width: auto;
+    color: #17927e;
 }
 
 nav ul {
@@ -50,6 +56,7 @@ nav a:hover {
 
 .hero {
     display: flex;
+    margin: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -117,3 +124,29 @@ p {
     margin: 0 auto;
 }
 
+.olho {
+    font-size: 45px;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulolista {
+    font-size: 25px; 
+    text-align: justify;
+    margin: auto;
+}
+.paragrafo {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 26px;
+    
+}
