@@ -96,7 +96,7 @@ nav a:hover {
 h2 {
     font-size: 32px;
     color: #392A70;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 20px;
     text-align: center
 }
@@ -110,7 +110,7 @@ p {
 }
 
 .intro-img {
-    width: 500px;
+    width: 400px;
     height: auto;
     max-width: 100%;
     display: block;
