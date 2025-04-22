@@ -135,6 +135,7 @@ p {
     font-size: 40px;
     object-fit: contain;
     align-items: center;
+    margin-inline:auto; 
    
 }
 
@@ -172,6 +173,7 @@ p {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+
 }
 .video {
     background-color: #e2e2e2;
@@ -180,17 +182,20 @@ p {
 }
 .subvideo {
     text-align: center;
-    display: block;
+    display: flex;
     margin: 0 auto;
-    transform: translateX(-350px);
     padding-top: 50px;
+    margin-left: 200px;
     
 }
 
 
  .paragrafo{
-    font-size: 15px;
+    font-size: 18px;
     color: #17927e;
+    text-align: left;
+    margin: 20px;
+    padding: auto;
    
  }
 
@@ -205,4 +210,22 @@ p {
  }
  .pd {
     font-size: 15px; }
+
+.h2n {
+    text-align: left;
+    margin: 20px;
+    color: #624eb4;
+    position: relative;
+    display: flex;
+    word-wrap: break-word;
+
+
+}
+.pn {
+    text-align: left;
+    padding: 20px;
+}
+.texto {
+   margin: 40px;
+}
 
