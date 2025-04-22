@@ -56,7 +56,6 @@ nav a:hover {
 
 .hero {
     display: flex;
-    margin: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -136,9 +135,14 @@ p {
     object-fit: contain;
     align-items: center;
     margin-inline:auto; 
+    transition: background-color 0.3s ease;
    
 }
 
+div:hover>.olho {
+    color: white;
+    background-color: #392A70;
+}
 
 .titulolista {
     font-size: 25px; 
@@ -227,5 +231,65 @@ p {
 }
 .texto {
    margin: 40px;
+}
+ .H1 {
+    color: white;
+ }
+
+ .footer {
+    background-color: #e2e2e2;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    
+ }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+.footer-left {
+    flex: 1;
+    min-width: 200px; 
+}
+
+.footer-left.logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-center {
+    display: flex;
+    gap: 40px;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    color: #00796b;
+}
+.coluna h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.coluna a {
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.footer-right a {
+    color: #00796b;
+    text-decoration: none;
 }
 
