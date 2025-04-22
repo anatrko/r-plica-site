@@ -169,23 +169,34 @@ p {
     max-width: 300px;
     max-width: 250px;
     text-align: center;
+    align-items: center;
     padding: 20px;
     box-sizing: border-box;
 }
 .video {
-    background-color: #ececec;
-    height: 600px;
+    background-color: #e2e2e2;
+    height: 550px;
+
+}
+.subvideo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    transform: translateX(-350px);
+    padding-top: 50px;
+    
 }
 
 
  .paragrafo{
     font-size: 15px;
     color: #17927e;
+   
  }
+
  .subcontain {
     display: flex;
-   gap: 80px;
-
+   gap: 90px;
 
  }
 
@@ -193,5 +204,5 @@ p {
     font-size: 20px;
  }
  .pd {
-    font-size: 15px;
- }
+    font-size: 15px; }
+
